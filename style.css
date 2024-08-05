@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d6ae4a;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.key:hover {
+    background-color: #000;
+    color: #d6ae4a;
+    cursor: pointer;
+}
+
+.m {
+    background-color: #ffc822;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.m:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #d6ae4a;
+}
+
+.text {
+    width: 100%;
+    border: 0;
+    background-color: #ddc8c8;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.btnkey {
+    width: 45%;
+    height: 60px;
+    margin: 5px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.key:active ,.DEL:active ,.AC:active ,.btnkey:active {
+    opacity: 0.66;
+}
+
+.AC,
+.DEL {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.3s;
+}
